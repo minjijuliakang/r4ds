@@ -1,11 +1,11 @@
 # r4ds
 #강의요약 'Tidyverse part_1'
-tidyverse 6가지 기능
+* tidyverse 6가지 기능
   :select, filter, arrange, mutate, summarize, group_by
   파이프기능을 사용하면 내용을 이해하기쉽다. 
 
 #강의요약 "Tidyverse part_2'
-*select
+* select
     원하는 컬럼만 추출(변수명, 변수번호) 또는 
     특정변수만 제거 (select (-(1:5) 또는 
     공통된 단어 contains('y3'), starts_with, ends_with 또는 
@@ -13,7 +13,7 @@ tidyverse 6가지 기능
     변수순서 변경 (
 
 #강의요약 "Tidyverse part_3'
-*filter 
+* filter 
     작은 데이터셋을 만들어서 사용, 복합조건가능 
     between 
     복합조건 OR (|)
@@ -24,7 +24,7 @@ tidyverse 6가지 기능
     결측값이 있는 건 제외 =drop (drop.na)
     
 #강의요약 "Tidyverse part_4'
- *mutate
+ * mutate
     새로운 변수 생성 
     조건을 이용한 새로운 변수 생성 -> ifelse(조건, 조건이 참일경우, 조건이 거짓일경우)
     ifelse: 조건에 따라 그룹핑할때 enter를 하면 가독성이 올라감. 
@@ -39,10 +39,10 @@ tidyverse 6가지 기능
     cut_interval(age, n=4)
  
  #강의요약 "Tidyverse part_5'
- *arrange
+ * arrange
       정렬
       우선순위대로 재배열 
- *summarize
+ * summarize
     개별의 데이터가 아니라, aggregation function 
     요약정보 동시에 구함
     incidence person-year eventrate
