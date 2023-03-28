@@ -36,7 +36,26 @@ tidyverse 6가지 기능
     -> ex) cut (age,
                 c(c-inf,30,40,50,60,inf),
                 c('<30','>=30', '>=40',)))
-                
+    cut_interval(age, n=4)
+ 
+ #강의요약 "Tidyverse part_5'
+ *arrange
+      정렬
+      우선순위대로 재배열 
+ *summarize
+    개별의 데이터가 아니라, aggregation function 
+    요약정보 동시에 구함
+    incidence person-year eventrate
+    -> ex) summarize (pt_number = n (),
+                      event = sum (hcc)
+                      person_year = sum(hcc_yr),
+                      incidence_rate = event
+ * group_by
+    일부 변수를 기준을 나누어서 사용
+    +summarize :그룹을 나누고, 각 그룹에 속한 수 및 평균값을 구할수있음
+    (주의: mean, median 사용시에 na.rm 을 사용하여 결측값처리)
     
+    
+   
  
  
