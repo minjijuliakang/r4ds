@@ -12,5 +12,16 @@ tidyverse 6가지 기능
     변수명변경 (새로운이름 앞)
     변수순서 변경 (
 
-#강의요약 "Tidyverse part_2'
-*
+#강의요약 "Tidyverse part_3'
+*filter 
+    작은 데이터셋을 만들어서 사용, 복합조건가능 
+    between 
+    복합조건 OR (|)
+    더 복합조건 AND , OR ( & ) | ( & )
+    조건을 만족하지 않는 경우 (=!)
+    해당변수 카운트 (count=)
+    결측값 카운트 (is.na) 또는 결측값이 아닌것 (!is.na)
+    결측값이 있는 건 제외 =drop (drop.na)
+ *mutate
+    새로운 변수 생성 
+   
